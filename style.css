@@ -399,3 +399,59 @@ color: black;
             width: 100%;
         }
 }
+.carousel-item img {
+   
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+ .carousel-caption h5,
+.carousel-caption p {
+    color:black;
+  font-size: 1.5rem;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+  
+  .carousel-item img {
+
+    width: 2000x;
+    height: 1000px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, 0%);
+    left: 60%; 
+    width: 125%;
+  }
+  
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+    font-size: 1.5rem;
+    text-align: centert;
+  }
+  .carousel-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: #37c3a8; 
+    z-index: -1;
+  }
+  
+ 
