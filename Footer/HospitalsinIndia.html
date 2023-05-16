@@ -1,12 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Hospitals in India</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      border-radius: 40px;
+      border: 5px solid;
+      text-align: justify;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .hospital-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      margin-top: 20px;
+      padding: 0;
+      list-style-type: none;
+    }
+    .hospital-list li {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .hospital-name {
+      font-weight: bold;
+    }
+    .hospital-location {
+      color: #888;
+    }
+    .hospital-list li:hover{
+      background-color: black;
+    }
+     
+    </style>
 </head>
 <body>
-    <h1>Hospitals In India</h1>
+  <h1>Hospitals in India</h1>
+  
+  <ul class="hospital-list">
+    
+      <div>
+        <a href="https://www.fortishealthcare.com/"   target="_blank">
+        <li>
+      <span class="hospital-name">Fortis Hospital</a></span>
+      <br>
+      <span class="hospital-location">Delhi</span>
+    </li>
+  </a>
+    </div>
+    <div> 
+      <a href="https://www.sgrh.com/" target="_blank">
+    <li>
+      <span class="hospital-name">Sir Ganga Ram Hospital</a></span>
+      <br>
+      <span class="hospital-location">Delhi</span>
+    </li>
+  </div>
+    <div>
+      <a href="https://www.aiims.edu/" target="_blank">
+        <li>
+            <span class="hospital-name">All India Institute of Medical Sciences (AIIMS)</span>
+            <br>
+            <span class="hospital-location">Delhi</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.kokilabenhospital.com/" target="_blank">
+        <li>
+            <span class="hospital-name">Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute</span>
+            <br>
+            <span class="hospital-location">Mumbai</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.lilavatihospital.com/" target="_blank">
+        <li>
+            <span class="hospital-name">BLilavati Hospital and Research Centre</span>
+            <br>
+            <span class="hospital-location">Mumbai</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.hindujahospital.com/" target="_blank">
+        <li>
+            <span class="hospital-name">Hinduja Hospital</span>
+            <br>
+            <span class="hospital-location">Mumbai</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="http://www.bmhrc.org/" target="_blank">
+        <li>
+            <span class="hospital-name">Bhopal Memorial Hospital and Research Centre (BMHRC)</span>
+            <br>
+            <span class="hospital-location">Bhopal</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.aiimsbhopal.edu.in/" target="_blank">
+        <li>
+            <span class="hospital-name">All India Institute of Medical Sciences (AIIMS)</span>
+            <br>
+            <span class="hospital-location">Bhopal</span>
+        </li>
+      </a>
+    </div>
+    <div>
+      <a href="http://www.bansalhospital.com/" target="_blank">
+        <li>
+            <span class="hospital-name">Bansal Hospital</span>
+            <br>
+            <span class="hospital-location">Bhopal</span>
+        </li>
+      </a>
+    </div>
+  </ul>
+
 </body>
 </html>
+                   
