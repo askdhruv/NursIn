@@ -440,13 +440,13 @@ color: black;
     display: block;
   }
   
-  .slider-caption {
+ .slider-caption {
     position: absolute;
-    top: 50%;
+    top: 15%;
+    left: 60%;
     transform: translate(-20%, 0%);
-    left: 60%; /* adjust this value to position the captions as desired */
-    width: 125%;
-  } 
+    width: 60%;
+}
   
   
    .slider-caption h5,
