@@ -443,7 +443,7 @@ color: black;
  .slider-caption {
     position: absolute;
     top: 15%;
-    left: 60%;
+    left: 75%;
     transform: translate(-20%, 0%);
     width: 60%;
 }
