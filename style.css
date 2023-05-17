@@ -146,8 +146,7 @@ font-size: 1.5rem;
 }
 .background-content a:hover{
     background: var(--otherclr);
-     transform: rotate(360deg);
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .our-services{
     padding: 2rem 5%;
